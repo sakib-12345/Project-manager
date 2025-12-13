@@ -3,6 +3,15 @@ import streamlit as st
 st.set_page_config(page_title="Link Manager", layout="wide", page_icon="🔗")
 
 
+hide_st_style = """
+            <style>
+            #MainMenu {visibility: hidden;}
+            footer {visibility: hidden;}
+            header {visibility: hidden;}
+            </style>
+            """
+st.markdown(hide_st_style, unsafe_allow_html=True)
+
 st.header("Link Manager", divider='rainbow')
 st.write("")
 st.write("")
@@ -174,4 +183,5 @@ with col9:
     st.write("")
     st.write("")
     with st.container(height=150):
+
         social_media_links("https://github.com/sakib-12345/private-qrcode-gen-and-scan/blob/main/qr_icon.png?raw=true", "https://my-qrcode-app-sakib.streamlit.app/", "Qr-code")
