@@ -1,6 +1,6 @@
 import streamlit as st
 
-st.set_page_config(page_title="Link Manager", layout="wide", page_icon="🔗")
+st.set_page_config(page_title="Link Manager", layout="wide", page_icon="chain.png")
 
 
 hide_st_style = """
@@ -185,3 +185,4 @@ with col9:
     with st.container(height=150):
 
         social_media_links("https://github.com/sakib-12345/private-qrcode-gen-and-scan/blob/main/qr_icon.png?raw=true", "https://my-qrcode-app-sakib.streamlit.app/", "Qr-code")
+
