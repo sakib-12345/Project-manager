@@ -153,7 +153,7 @@ with col5:
     st.write("")
     with st.container(height=150):
         social_media_links("https://github.com/sakib-12345/No-Code-ML-WEBapp/blob/main/my_icon.png?raw=true", "https://nocodemlsakib.streamlit.app/", "No-Code-ML")
-    with st.expander("Empty"):
+    with st.expander("Details"):
         st.markdown("""
         **project name: no code machine learning model builder**<br>
         *overview: "Download and see the accuracy of your machine learning model without even coding , its really fast and user friendly"*<br>
@@ -168,8 +168,15 @@ with col6:
     st.write("")
     with st.container(height=150):
         social_media_links("https://github.com/sakib-12345/ML-comperision-WEBapp/blob/main/web_icon.png?raw=true", "https://ml-app-sakib.streamlit.app/", "ML-Comparison")
-    with st.expander("Empty"):
-        pass     
+    with st.expander("Details"):
+        st.markdown("""
+        **project name: no code machine learning classifier comperision webapp**,<br>
+        *overview: "Compare all binary classifier in one place without coding , just upload your csv file"*<br>
+        [github link](https://github.com/sakib-12345/ML-comperision-WEBapp)<br>
+        [live link](https://ml-app-sakib.streamlit.app/)<br>
+        [icon url](https://github.com/sakib-12345/ML-comperision-WEBapp/blob/main/web_icon.png)
+  
+        """)
 
 with col7:
     st.write("")
@@ -195,6 +202,7 @@ with col9:
         social_media_links("https://github.com/sakib-12345/private-qrcode-gen-and-scan/blob/main/qr_icon.png?raw=true", "https://my-qrcode-app-sakib.streamlit.app/", "Qr-code")
     with st.expander("Empty"):
         pass
+
 
 
 
