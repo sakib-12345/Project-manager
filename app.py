@@ -214,7 +214,7 @@ with col9:
     with st.container(height=150):
 
         social_media_links("https://github.com/sakib-12345/private-qrcode-gen-and-scan/blob/main/qr_icon.png?raw=true", "https://my-qrcode-app-sakib.streamlit.app/", "Qr-code")
-    with st.expander("Empty"):
+    with st.expander("Details"):
         st.markdown("""
         **project name:  encrypted QR-code genaretor and scannner**<br>
     *overview: "A encrpyted qr code genaretor, other scanners can't detect the the qr code.;"*<br>
@@ -224,6 +224,7 @@ with col9:
 
         """, unsafe_allow_html=True)
         
+
 
 
 
