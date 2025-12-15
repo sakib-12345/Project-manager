@@ -199,8 +199,15 @@ with col8:
     st.write("")
     with st.container(height=150):
         social_media_links("https://github.com/sakib-12345/chat-app-with-google-sheet/blob/main/icon.png?raw=true", "https://chat-app-sakib12345.streamlit.app/", "Chat-sheets")
-    with st.expander("Empty"):
-        pass
+    with st.expander("Details"):
+        st.markdown("""
+        **project name: chat app using google sheet**<br>
+          *overview: "A chat app with google sheet database. Its totally free to use and deploy(Only chat 30 sec delay)"*<br>
+   [github link](https://github.com/sakib-12345/chat-app-with-google-sheet.git)<br>
+   [live link](https://chat-app-sakib12345.streamlit.app/)<br>
+   [icon url](https://github.com/sakib-12345/chat-app-with-google-sheet/blob/main/icon.png)
+
+        """, unsafe_allow_html=True)
 with col9:
     st.write("")
     st.write("")
@@ -208,7 +215,16 @@ with col9:
 
         social_media_links("https://github.com/sakib-12345/private-qrcode-gen-and-scan/blob/main/qr_icon.png?raw=true", "https://my-qrcode-app-sakib.streamlit.app/", "Qr-code")
     with st.expander("Empty"):
-        pass
+        st.markdown("""
+        **project name:  encrypted QR-code genaretor and scannner**<br>
+          *overview: "A chat app with google sheet database. Its totally free to use and deploy(Only chat 30 sec delay)"*<br>
+   [github link](https://github.com/sakib-12345/private-qrcode-gen-and-scan.git)<br>
+   [live link](https://my-qrcode-app-sakib.streamlit.app/)<br>
+   [icon url](https://github.com/sakib-12345/private-qrcode-gen-and-scan/blob/main/qr_icon.png)
+
+        """, unsafe_allow_html=True)
+        
+
 
 
 
