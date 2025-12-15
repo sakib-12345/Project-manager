@@ -104,15 +104,12 @@ with coll2:
 
 
 
-c100, c110, c120 = st.columns([1, 2, 1])
-with c110:
-   
-    st.write("")
-    st.write("")
-    st.header("Social Links", divider='rainbow')
+st.write("")
+st.write("")
+st.header("Social Links", divider='rainbow')
 
 
-c1, col0, col1, col2, col3, col4, c2 = st.columns([2.5, 1, 1, 1, 1, 1, 2.5])
+col0, col1, col2, col3, col4 = st.columns([1, 1, 1, 1, 1])
 with col0:
     with st.container(height=150):
         social_media_links("https://github.com/sakib-12345/Project-manager/blob/main/facebook.png?raw=true", "https://www.facebook.com/sakibhossain.tahmid", "Facebook")
@@ -143,15 +140,13 @@ with col4:
 
 
 
-c10, c11, c12 = st.columns([1, 2, 1])
-with c11:
-    st.write("")
-    st.write("")
-    st.write("")
-    st.write("")
-    st.header("My Projects", divider='rainbow')
+st.write("")
+st.write("")
+st.write("")
+st.write("")
+st.header("My Projects", divider='rainbow')
 
-c3, col5, col6, col7, col8, col9, c4 = st.columns([2.5, 1, 1, 1, 1, 1, 2.5])
+col5, col6, col7, col8, col9 = st.columns([1, 1, 1, 1, 1])
 
 with col5:
     st.write("")
@@ -186,6 +181,7 @@ with col9:
     with st.container(height=150):
 
         social_media_links("https://github.com/sakib-12345/private-qrcode-gen-and-scan/blob/main/qr_icon.png?raw=true", "https://my-qrcode-app-sakib.streamlit.app/", "Qr-code")
+
 
 
 
