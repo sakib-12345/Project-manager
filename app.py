@@ -113,13 +113,13 @@ col0, col1, col2, col3, col4 = st.columns([1, 1, 1, 1, 1])
 with col0:
     with st.container(height=150):
         social_media_links("https://github.com/sakib-12345/Project-manager/blob/main/facebook.png?raw=true", "https://www.facebook.com/sakibhossain.tahmid", "Facebook")
-
+    
 with col1:
     st.write("")
     st.write("")
     with st.container(height=150):
         social_media_links("https://github.com/sakib-12345/Project-manager/blob/main/email.png?raw=true", "https://mail.google.com/mail/u/0/#inbox", "Email")
-   
+    
         
 with col2:
     
@@ -153,6 +153,8 @@ with col5:
     st.write("")
     with st.container(height=150):
         social_media_links("https://github.com/sakib-12345/No-Code-ML-WEBapp/blob/main/my_icon.png?raw=true", "https://nocodemlsakib.streamlit.app/", "No-Code-ML")
+    with st.expander("Empty"):
+        pass
 with col6:
     st.write("")
     st.write("")
@@ -160,13 +162,16 @@ with col6:
     st.write("")
     with st.container(height=150):
         social_media_links("https://github.com/sakib-12345/ML-comperision-WEBapp/blob/main/web_icon.png?raw=true", "https://ml-app-sakib.streamlit.app/", "ML-Comparison")
-          
+    with st.expander("Empty"):
+        pass     
 
 with col7:
     st.write("")
     st.write("")
     with st.container(height=150):
         social_media_links("https://github.com/sakib-12345/chat-app-with-Firebase/blob/main/App_icon.png?raw=true", "https://chat-firebase.streamlit.app/", "Chat-firebase")
+    with st.expander("Empty"):
+        pass
 with col8:   
     st.write("")
     st.write("")
@@ -174,13 +179,16 @@ with col8:
     st.write("")
     with st.container(height=150):
         social_media_links("https://github.com/sakib-12345/chat-app-with-google-sheet/blob/main/icon.png?raw=true", "https://chat-app-sakib12345.streamlit.app/", "Chat-sheets")
-    
+    with st.expander("Empty"):
+        pass
 with col9:
     st.write("")
     st.write("")
     with st.container(height=150):
 
         social_media_links("https://github.com/sakib-12345/private-qrcode-gen-and-scan/blob/main/qr_icon.png?raw=true", "https://my-qrcode-app-sakib.streamlit.app/", "Qr-code")
+    with st.expander("Empty"):
+        pass
 
 
 
