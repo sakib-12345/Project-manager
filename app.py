@@ -217,13 +217,14 @@ with col9:
     with st.expander("Empty"):
         st.markdown("""
         **project name:  encrypted QR-code genaretor and scannner**<br>
-          *overview: "A chat app with google sheet database. Its totally free to use and deploy(Only chat 30 sec delay)"*<br>
+    *overview: "A encrpyted qr code genaretor, other scanners can't detect the the qr code.;"*<br>
    [github link](https://github.com/sakib-12345/private-qrcode-gen-and-scan.git)<br>
    [live link](https://my-qrcode-app-sakib.streamlit.app/)<br>
    [icon url](https://github.com/sakib-12345/private-qrcode-gen-and-scan/blob/main/qr_icon.png)
 
         """, unsafe_allow_html=True)
         
+
 
 
 
