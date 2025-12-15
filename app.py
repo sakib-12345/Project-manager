@@ -170,7 +170,7 @@ with col6:
         social_media_links("https://github.com/sakib-12345/ML-comperision-WEBapp/blob/main/web_icon.png?raw=true", "https://ml-app-sakib.streamlit.app/", "ML-Comparison")
     with st.expander("Details"):
         st.markdown("""
-        **project name: no code machine learning classifier comperision webapp**,<br>
+        **project name: no code machine learning classifier comperision webapp**<br>
         *overview: "Compare all binary classifier in one place without coding , just upload your csv file"*<br>
         [github link](https://github.com/sakib-12345/ML-comperision-WEBapp)<br>
         [live link](https://ml-app-sakib.streamlit.app/)<br>
@@ -183,8 +183,15 @@ with col7:
     st.write("")
     with st.container(height=150):
         social_media_links("https://github.com/sakib-12345/chat-app-with-Firebase/blob/main/App_icon.png?raw=true", "https://chat-firebase.streamlit.app/", "Chat-firebase")
-    with st.expander("Empty"):
-        pass
+    with st.expander("Details"):
+        st.markdown("""
+           **project name:chat app using firebase**<br>
+             *overview: "A real time chat app using Firebase as a Database., easy to use , also real time backend"*<br>
+           [github link](https://github.com/sakib-12345/chat-app-with-Firebase)<br>
+            [live link](https://chat-firebase.streamlit.app/)<br>
+            [icon url](https://github.com/sakib-12345/chat-app-with-Firebase/blob/main/App_icon.png)
+         
+        """, unsafe_allow_html=True)
 with col8:   
     st.write("")
     st.write("")
@@ -202,6 +209,7 @@ with col9:
         social_media_links("https://github.com/sakib-12345/private-qrcode-gen-and-scan/blob/main/qr_icon.png?raw=true", "https://my-qrcode-app-sakib.streamlit.app/", "Qr-code")
     with st.expander("Empty"):
         pass
+
 
 
 
