@@ -154,7 +154,13 @@ with col5:
     with st.container(height=150):
         social_media_links("https://github.com/sakib-12345/No-Code-ML-WEBapp/blob/main/my_icon.png?raw=true", "https://nocodemlsakib.streamlit.app/", "No-Code-ML")
     with st.expander("Empty"):
-        pass
+        st.markdown("""
+        project name: no code machine learning model builder
+        overview: "Download and see the accuracy of your machine learning model without even coding , its really fast and user friendly"
+        github link: https://github.com/sakib-12345/No-Code-ML-WEBapp
+        live link: https://nocodemlsakib.streamlit.app/
+        icon url: https://github.com/sakib-12345/No-Code-ML-WEBapp/blob/main/my_icon.png  
+        """)
 with col6:
     st.write("")
     st.write("")
@@ -189,6 +195,7 @@ with col9:
         social_media_links("https://github.com/sakib-12345/private-qrcode-gen-and-scan/blob/main/qr_icon.png?raw=true", "https://my-qrcode-app-sakib.streamlit.app/", "Qr-code")
     with st.expander("Empty"):
         pass
+
 
 
 
