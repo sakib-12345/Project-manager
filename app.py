@@ -50,9 +50,10 @@ def social_media_links(image_url, link_url, platform_name):
 
        )
 
-coll1, coll2= st.columns([2, 1])
+coll1, coll2= st.columns([1, 1])
 with coll1:
-    st.markdown("""
+    with st.expander():
+        st.markdown("""
 # 👋 Hey, I’m Sakib Hossain Tahmid  
 
 ### 🚀 About Me  
@@ -185,4 +186,5 @@ with col9:
     with st.container(height=150):
 
         social_media_links("https://github.com/sakib-12345/private-qrcode-gen-and-scan/blob/main/qr_icon.png?raw=true", "https://my-qrcode-app-sakib.streamlit.app/", "Qr-code")
+
 
