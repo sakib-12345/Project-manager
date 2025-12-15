@@ -176,7 +176,7 @@ with col6:
         [live link](https://ml-app-sakib.streamlit.app/)<br>
         [icon url](https://github.com/sakib-12345/ML-comperision-WEBapp/blob/main/web_icon.png)
   
-        """)
+        """, unsafe_allow_html=True)
 
 with col7:
     st.write("")
@@ -202,6 +202,7 @@ with col9:
         social_media_links("https://github.com/sakib-12345/private-qrcode-gen-and-scan/blob/main/qr_icon.png?raw=true", "https://my-qrcode-app-sakib.streamlit.app/", "Qr-code")
     with st.expander("Empty"):
         pass
+
 
 
 
